@@ -1,6 +1,6 @@
 ## Fetch Backend Internship Coding Challenge
 
-This project is a simple REST API that allows users to manage points from different payers. It supports adding points, spending points, and fetching the balance of points per payer.
+This challenge is a simple REST API that allows users to manage points from different payers. It supports adding points, spending points, and fetching the balance of points per payer.
 
 ### Prerequisites
 
