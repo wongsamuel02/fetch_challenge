@@ -1,0 +1,22 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I chose Python and Flask for this coding exercise because Python is a versatile language with a wide range of libraries suited for web development, including Flask. Flask is a lightweight framework that makes it easy to set up REST APIs quickly, while also providing flexibility and simplicity.
+
+2. What are the advantages and disadvantages of your solution?
+
+Advantages:
+- The REST API uses a FIFO (First-In, First-Out) approach to ensure that points are spent in the correct order based on timestamps.
+- I used standard libraries and a simple Flask framework to handle HTTP requests, hopefully making it clear and understandable
+- The deque data structure ensures that transactions can be processed efficiently, even with many entries.
+- Using Python might mean that the solution is easy to read and understand
+
+Disadvantages:
+- The solution might not scale well with a large number of transactions since the current approach loads everything in memory and processes it sequentially.
+- Edge cases and error handling are basic and may require more rigorous validation in production environments.
+- Without a database, persistence is limited to the runtime of the application, meaning data will be lost if the server restarts.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+One of my favorite personal projects has been developing an AI-driven transcription and note-taking assistant called "Grammateus," designed to reduce the administrative burden of healthcare workers.
+This project challenged me to apply AI techniques to real-world problems in healthcare. 
+The most challenging part was integrating the AI with external systems and ensuring the accuracy of transcriptions, but it was incredibly rewarding to create something that could potentially scale into a real-world application.
