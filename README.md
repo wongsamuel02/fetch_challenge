@@ -11,6 +11,7 @@ You can install Flask using pip:
 
 ```bash
 pip install Flask
+```
 
 ### Installation
 
@@ -19,13 +20,14 @@ pip install Flask
 ```bash
 git clone https://github.com/your-repo/fetch-backend-challenge.git
 cd fetch-backend-challenge
-
+```
 ### Running the Application
 
 After setting up the project, you can start the Flask server by running:
 
 ```bash
 python app.py
+```
 
 ### Testing the API
 
@@ -35,6 +37,7 @@ You can test the API with `curl` or a tool like Postman. Below is an example of 
 
 ```bash
 curl -X POST http://localhost:8000/add -H "Content-Type: application/json" -d '{"payer": "DANNON", "points": 5000, "timestamp": "2020-11-02T14:00:00Z"}'
+```
 
 
 
